@@ -1,0 +1,39 @@
+{
+  "name": "@plugger/frontend-componens",
+  "version": "0.0.1",
+  "description": "Plugger frontend components",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "git@github.com:MatiWall/Plugger.Frontend.Components.git",
+  "author": "matiwall@live.dk",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "vitest",
+    "build": "tsc",
+    "pub": "yarn publish --registry http://verdaccio.mw.local/",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-error-boundary": "^5.0.0",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.1"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^3.2.3",
+    "@storybook/addon-essentials": "8.6.0-alpha.0",
+    "@storybook/addon-interactions": "8.6.0-alpha.0",
+    "@storybook/addon-onboarding": "8.6.0-alpha.0",
+    "@storybook/blocks": "8.6.0-alpha.0",
+    "@storybook/react": "8.6.0-alpha.0",
+    "@storybook/react-vite": "8.6.0-alpha.0",
+    "@storybook/test": "8.6.0-alpha.0",
+    "@types/react": "^19.0.7",
+    "storybook": "8.6.0-alpha.0"
+  }
+}

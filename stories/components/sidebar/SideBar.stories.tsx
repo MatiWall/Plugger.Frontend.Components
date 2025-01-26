@@ -1,6 +1,6 @@
 import React from 'react'
 import type { Meta, StoryObj } from "@storybook/react";
-import { SideBar, SideBarNavItem, defaultTheme, SideBarTool } from "../../src"
+import { SideBar, SideBarNavItem, defaultTheme, SideBarTool } from "../../../src"
 import { ThemeProvider } from '@emotion/react';
 import { CssBaseline } from '@mui/material';
 import { BrowserRouter } from 'react-router-dom';

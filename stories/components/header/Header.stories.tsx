@@ -1,7 +1,7 @@
 import React from 'react';
 import type { Meta, StoryObj } from "@storybook/react";
 import { within, userEvent, expect } from "@storybook/test";
-import { Header, defaultTheme } from "../../src";
+import { Header, defaultTheme } from "../../../src";
 import { ThemeProvider } from '@emotion/react';
 import { CssBaseline } from '@mui/material';
 

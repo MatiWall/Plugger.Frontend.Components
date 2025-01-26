@@ -1,5 +1,5 @@
 {
-  "name": "@plugger/frontend-componens",
+  "name": "@plugger/frontend-components",
   "version": "0.0.1",
   "description": "Plugger frontend components",
   "main": "dist/index.js",

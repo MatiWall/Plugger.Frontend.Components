@@ -50,7 +50,7 @@ const SideBar: React.FC<SideBarProps> = ({
                 <Divider />
 
                 {/* Links Section (Floats to the Top) */}
-                <Box sx={{ flexGrow: 1, p: 1 }}>
+                <Box sx={{ flexGrow: 1, p: 1, overflowY: 'auto' }}>
                     <List sx={{ display: "flex", flexDirection: "column", gap: 1 }}>
                         {links?.map((LinkComponent, idx) => (
                             <LinkComponent key={idx} />
@@ -62,12 +62,12 @@ const SideBar: React.FC<SideBarProps> = ({
                 {tools &&
                     <>
                         <Divider></Divider>
-                        <Box sx={{ p: 1 }}>
-                            <Toolbar>
+                        <Box sx={{ p: 1, display: 'flex', flexDirection: 'column' }}>
+                            <List>
                                 {tools?.map((ToolComponent, idx) => (
                                     <ToolComponent key={idx} />
                                 ))}
-                            </Toolbar>
+                            </List>
                         </Box>
                     </>
                 }

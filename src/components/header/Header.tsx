@@ -32,6 +32,9 @@ const Header = ({icon, content}: {icon?: React.FC, content?: React.FC}) => {
           <Box>
             {Content ? <Content/> : 'Add content using headerContentRef attached to app, layout, header'}
           </Box>
+          <Box>
+            
+          </Box>
         </Toolbar>
       </AppBar>
     </Box>

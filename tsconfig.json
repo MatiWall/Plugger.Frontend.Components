@@ -11,7 +11,7 @@
     "resolveJsonModule": true,              // Allow importing JSON files
     "outDir": "./dist",                     // Output directory for compiled files
     "sourceMap": true,                       // Generate sourcemap files
-    "jsx": "react",  
+    "jsx": "react-jsx",  
     "lib": ["ESNext", "dom"],
     "declaration": true,                     // Generate declaration files
     "emitDeclarationOnly": false  

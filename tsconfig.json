@@ -16,6 +16,6 @@
     "declaration": true,                     // Generate declaration files
     "emitDeclarationOnly": false  
   },
-  "include": ["src/**/*.ts", "src/app/App.tsx", "src/context/NotificationProvider.tsx"],
+  "include": ["src/**/*.ts"],
   "exclude": ["**/*.test.ts", "**/*.test.tsx"],
 }

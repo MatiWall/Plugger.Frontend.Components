@@ -1,6 +1,6 @@
 {
   "name": "@plugger/frontend-components",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Plugger frontend components",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

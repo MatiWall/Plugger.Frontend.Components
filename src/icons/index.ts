@@ -1,2 +1,5 @@
-export {default as ArgoCD} from './ArgoCD/ArgoCD'
-export {default as Rancher} from './Rancher/Rancher'
+export {default as ArgoIcon} from './ArgoCD/ArgoCD'
+export {default as RancherIcon} from './Rancher/Rancher'
+export {default as GrafanaIcon} from './Grafana'
+export {default as PrometheusIcon} from './Prometheus'
+export {default as GitHubIcon} from './GitHub'

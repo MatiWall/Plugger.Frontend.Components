@@ -1,11 +1,10 @@
 import React from 'react';
-import { GitHub, Description } from '@mui/icons-material';
 import { Meta, StoryObj } from '@storybook/react';
-import { ArgoCD } from '../../src/icons';
+import { ArgoIcon } from '../../src/icons';
 
 export default {
-    title: 'icons/ArgoCD',
-    component: ArgoCD,
+    title: 'icons/Argo',
+    component: ArgoIcon,
     argTypes: {
         links: { control: 'object' }
     }
@@ -13,28 +12,28 @@ export default {
 
 
 
-export const Default: StoryObj<typeof ArgoCD> = {
+export const Default: StoryObj<typeof ArgoIcon> = {
     render: (args) => (
         <div style={{ width: '10rem'}}>
-          <ArgoCD/>
+          <ArgoIcon/>
         </div>
       )
 };
 
 
-export const Small: StoryObj<typeof ArgoCD> = {
+export const Small: StoryObj<typeof ArgoIcon> = {
     render: (args) => (
         <div style={{ width: '2rem'}}>
-          <ArgoCD/>
+          <ArgoIcon/>
         </div>
       )
 };
 
 
-export const Big: StoryObj<typeof ArgoCD> = {
+export const Big: StoryObj<typeof ArgoIcon> = {
     render: (args) => (
         <div style={{ width: '30rem'}}>
-          <ArgoCD/>
+          <ArgoIcon/>
         </div>
       )
 };

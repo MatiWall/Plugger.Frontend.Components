@@ -1,10 +1,10 @@
 import React from 'react';
 import { Meta, StoryObj } from '@storybook/react';
-import { RancherIcon } from '../../src/icons';
+import { GitHubIcon } from '../../src/icons';
 
 export default {
-    title: 'icons/Rancher',
-    component: RancherIcon,
+    title: 'icons/GitHub',
+    component: GitHubIcon,
     argTypes: {
         links: { control: 'object' }
     }
@@ -12,10 +12,10 @@ export default {
 
 
 
-export const Default: StoryObj<typeof RancherIcon> = {
+export const Default: StoryObj<typeof GitHubIcon> = {
     render: (args) => (
         <div style={{ width: '10rem'}}>
-          <RancherIcon/>
+          <GitHubIcon/>
         </div>
       )
 };
